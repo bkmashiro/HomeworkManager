@@ -1,0 +1,26 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HomeworkManager"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="HomeworkManager.settings"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="settings">
+
+    <Grid Loaded="Grid_Loaded">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFFBFBD5" Offset="0"/>
+                <GradientStop Color="#FFD3D39F" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <ComboBox HorizontalAlignment="Left" Margin="189,40,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="背景预设" HorizontalAlignment="Left" Margin="56,21,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label Content="美工不在线" HorizontalAlignment="Left" Margin="722,417,0,0" VerticalAlignment="Top"/>
+
+
+
+    </Grid>
+</Page>
